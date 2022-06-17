@@ -6,5 +6,5 @@ docker run -d \
   -e TZ=America/New_York \
   -v /root/homeass/config \
   --network=host \
-  docker.io/homeassistant/home-assistant:latest
+  ghcr.io/home-assistant/home-assistant:stable
 ```
